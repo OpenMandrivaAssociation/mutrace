@@ -1,6 +1,6 @@
 Name:		mutrace
 Version:	0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Mutex Tracer
 Group:		Development/Other
 License:	LGPLv3+ and GPLv2+
@@ -18,7 +18,7 @@ multi-threaded applications.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
