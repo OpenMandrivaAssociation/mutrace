@@ -4,7 +4,7 @@ Release:	%mkrel 4
 Summary:	Mutex Tracer
 Group:		Development/Other
 License:	LGPLv3+ and GPLv2+
-URL:		http://git.0pointer.de/?p=mutrace.git
+URL:		https://git.0pointer.de/?p=mutrace.git
 Source0:	http://0pointer.de/public/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 Requires:	util-linux-ng
