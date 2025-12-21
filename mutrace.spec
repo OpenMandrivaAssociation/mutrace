@@ -8,6 +8,11 @@ URL:		https://git.0pointer.de/?p=mutrace.git
 Source0:	http://0pointer.de/public/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 Requires:	util-linux-ng
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	binutils-devel
 
 %description
