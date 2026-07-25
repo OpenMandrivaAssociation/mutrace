@@ -1,6 +1,6 @@
 Name:		mutrace
 Version:	0.2
-Release:	%mkrel 4
+Release:	5
 Summary:	Mutex Tracer
 Group:		Development/Other
 License:	LGPLv3+ and GPLv2+
